@@ -1,10 +1,9 @@
+
 <?php 
 
-    
-    require_once('./config/dbconfig.php');
+   require_once('./config/dbconfig.php');
     $db = new dbconfig();
-
-    class operations extends dbconfig
+  class operations extends dbconfig
     {
         // Insert Record in the Database
         public function Store_Record()
@@ -49,3 +48,5 @@
 
     } 
 ?>
+
+
